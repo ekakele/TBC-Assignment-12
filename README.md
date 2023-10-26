@@ -14,4 +14,4 @@ The assignment covers the following topics:
 > The deadline of this task is: 23/10/2023, 10:00. 
 
 
-![Figma Design]/Assignment-12-iOS13mini/FigmaDesign.png
+![Figma Design](FigmaDesign.png)
