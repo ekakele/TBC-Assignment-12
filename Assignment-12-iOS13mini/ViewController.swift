@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     
     //MARK: - IBOutlets
     @IBOutlet private weak var sizeLabelS: UIButton!
@@ -35,13 +35,13 @@ class ViewController: UIViewController {
     }
     
     //MARK: - enum
-    enum AdditionalIngredient {
+    private enum AdditionalIngredient {
         case milk
         case chocolate
     }
     
     //MARK: - class
-    struct Coffee {
+    private struct Coffee {
         let productName: String
         var rating: Double
         var addIngredient: AdditionalIngredient
@@ -52,6 +52,6 @@ class ViewController: UIViewController {
     }
     
     //MARK: - object
-    let cappuccino = Coffee(productName: "Cappuccino", rating: 4.8, addIngredient: .milk, description: "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More", size: "M", price: 4.53)
+    private let cappuccino = Coffee(productName: "Cappuccino", rating: 4.8, addIngredient: .milk, description: "A cappuccino is an approximately 150 ml (5 oz) beverage, with 25 ml of espresso coffee and 85ml of fresh milk the fo.. Read More", size: "M", price: 4.53)
 }
 
